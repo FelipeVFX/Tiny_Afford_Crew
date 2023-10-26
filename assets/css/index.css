@@ -13,77 +13,52 @@ header{
     top: 0;
 }
 
-/* dessign */
-
-.design{
+.img-text{
     display: inline-block;
 }
-.design img, .design h1{
-    display: inline-block;
-}
-.design img{
-    height: 35px;
-    position: relative;
-    left: 55px;
-    top: 10px;
-}
-.design h1{
-    position: relative;
-    left: 350px;
-    color: white;
-}
-
-
-/* menu nav */
-.menu{
-    display: inline-block;
-    position: relative;
-    left: 700px;
-}
-
-.menu ul{
-    list-style: none;
-}
-.menu ul li{
-    display: inline-block;
-    position: relative;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    display: block;
-    padding: 10px 20px;
-    color: white;
-}
-
-.menu ul ul li a{
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-}
-.menu ul ul li :hover{
-    padding: 15px;
-    text-align: center;
-    transition: 1.0;
-}
-
-.menu ul ul{
-    display: none;
+.img-text img{
     position: absolute;
-    background: rgb(127, 69, 145);
-    border-radius: 10px;
-    width: 100px;
+    left: 25px;
+    top: 20px;
+    height: 35px;
+}
+.img-text h1{
+    position: relative;
+    left: 450px;
+    color: white;
+    top: 25px;
 }
 
-.menu ul li:hover > ul{
-    display: block;
+nav{
+    position: relative;
+    left: 900px;
+    bottom: 5px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background: rgb(59, 58, 58);
+    border-radius: 10px;
 }
 
 /* main */
 
+.primeira{
+    display: inline-block;
+}
+.primeira img, .text{
+    display: inline-block;
+}
 
-
-
-/* footer */
-
-
+.primeira img{
+    height: 150px;
+}
